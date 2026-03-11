@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "df-azureprojectved"
+		},
+		"azure_sql_password": {
+			"value": ""
+		},
+		"datalake_accountKey": {
+			"value": ""
+		},
+		"azure_sql_properties_typeProperties_server": {
+			"value": "azureprojectservervedant.database.windows.net"
+		},
+		"azure_sql_properties_typeProperties_database": {
+			"value": "azureprpojectdbvedant"
+		},
+		"azure_sql_properties_typeProperties_userName": {
+			"value": "adminved"
+		},
+		"datalake_properties_typeProperties_url": {
+			"value": "https://storageazureprojectved.dfs.core.windows.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
